@@ -1,0 +1,21 @@
+{
+    "name": "spaethtech/tpl-php-library",
+    "description": "Our base PHP library template.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Spaeth",
+            "email": "rspaeth@spaethtech.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "spaethtech/php-support": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpaethTech\\": "src/"
+        }
+    }
+}
